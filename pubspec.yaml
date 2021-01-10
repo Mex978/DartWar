@@ -1,0 +1,7 @@
+name: DartWar
+description: A repository with some Katas from Code Wars solved in Dart
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  test:
