@@ -1,5 +1,7 @@
 # Buddy pairs
 
+## Description
+
 You know what divisors of a number are. The divisors of a positive integer `n` are said to be `proper` when you consider only the divisors other than `n` itself. In the following description, divisors will mean `proper` divisors. For example for `100` they are `1, 2, 4, 5, 10, 20, 25, and 50`.
 
 Let `s(n)` be the `sum` of these proper divisors of `n`. Call `buddy` two positive integers such that the `sum` of the proper divisors of each number is one more than the other number:
@@ -26,7 +28,6 @@ buddy(10, 50) returns [48, 75]
 buddy(48, 50) returns [48, 75]
 ```
 
-## Note
+## Problem reference
 
-* for C: The returned string will be free'd.
-* See more examples in "Sample Tests:" of your language.
+[CodeWars](https://www.codewars.com/kata/59ccf051dcc4050f7800008f)
